@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>GifTastic</h1>
+        <h1 class="center">GifTastic</h1>
 
-        <div id="buttons-view"></div>
+        <div class="row">
+            <div class="col-md-12" id="buttons-view"></div>
+        </div>
         <form id="topic-form">
-            <label for="topic-input">Add a topic!</label>
+            <label for="topic-input" class="center">Add a topic!</label><br>
 
-            <input type="text" id="topic-input"><br>
-            <input id="add-topic" type="submit" value="Add a topic!">
+            <input type="text" class="input" id="topic-input"><br>
+            <input id="add-topic" class="btn btn-outline-success" type="submit" value="Create">
         </form>
         <div id="topic-view"></div>
     </div>
