@@ -8,6 +8,6 @@
 //Gifs DO NOT pause or play on click
 //Styles are still missing but I got it to work
 
-//
+
 ¯\_(ツ)_/¯ 
 //
